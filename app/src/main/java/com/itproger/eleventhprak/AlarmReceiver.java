@@ -9,7 +9,6 @@ public class AlarmReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        // Здесь вы можете выполнить любые необходимые действия при срабатывании будильника
         Log.d("AlarmReceiver", "Alarm triggered!");
     }
 }
